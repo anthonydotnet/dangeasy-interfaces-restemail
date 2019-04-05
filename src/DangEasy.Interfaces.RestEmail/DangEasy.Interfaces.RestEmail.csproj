@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net452;net46;net472</TargetFrameworks>
+    <Description>An opinionated interface for REST based emails. 
+
+We define minimal (simple) interfaces for request, response, and file attachements.
+
+Interfaces are defined for the client and request builder so that your implementation can be more granular if required.
+</Description>
+    <Copyright>Anthony Dang 2019</Copyright>
+    <PackageProjectUrl>https://github.com/anthonydotnet/dangeasy-interfaces-restemail</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/anthonydotnet/dangeasy-interfaces-restemail</RepositoryUrl>
+    <PackageTags>interfaces, rest, email</PackageTags>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>DangEasy.Interfaces.RestEmail</PackageId>
+  </PropertyGroup>
+
+ <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+</Project>
